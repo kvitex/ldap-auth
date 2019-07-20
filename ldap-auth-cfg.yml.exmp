@@ -1,0 +1,7 @@
+---
+ldap_url: ldap://ldap.server 
+ldap_user: ldap_user # user with rights to search in ldap
+ldap_user_password: password
+basedn: OU=Users,OU=domain,DC=domain,DC=com # base for search
+search_attribute: sAMAccountName # Attribute 
+group: VPN
